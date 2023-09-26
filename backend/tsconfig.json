@@ -1,0 +1,27 @@
+// {
+//   "compilerOptions": {
+//     "target": "es6",
+//     "module": "commonjs",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "experimentalDecorators": true,
+//     "emitDecoratorMetadata": true,
+//     "strictPropertyInitialization": false
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "downlevelIteration": true
+  },
+  "typeRoots": ["@types"]
+}
